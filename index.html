@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="poll"></div>
+    <!-- <script>
+        const elementh1=document.createElement("h1");
+        elementh1.innerHTML="ha ha ha mane teir jindgi jhand kar di tera dost chin liya teri izzat chin li tera man chin liya /akchat jain";
+        const element=document.getElementById("poll");
+        element.appendChild(elementh1);
+    </script> -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script>
+    //const reactelement=React.createElement("h1",{},"hello world");
+    //const element=ReactDOM.createRoot(document.getElementById("poll"));
+    //element.render(reactelement);
+    //const reacte1lement=React.createElement("h1",{id:"heading"},"texting world");
+    //const root=ReactDOM.createRoot(document.getElementById("poll"));
+    //root.render(reacte1lement);
+    //console.log(reacte1lement);
+            //nested react statement
+    //const  nestedelement=React.createElement("div",{id:"parent"},
+    //React.createElement("div",{id:"child"},
+    //React.createElement("h1",{id:"child"},"brocode")));
+    //const root1=ReactDOM.createRoot(document.getElementById("poll"));
+    //root1.render(nestedelement);
+    //if you want to add sibling then use array
+    const nestedpart2=React.createElement("div",{id:"out"},[React.createElement("h1",{},"heigh"),React.createElement("h1",{},"low")]);
+    const root=ReactDOM.createRoot(document.getElementById("poll"));
+    root.render(nestedpart2);
+</script>
+</body>
+</html>
